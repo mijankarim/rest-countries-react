@@ -17,7 +17,7 @@ const CountryDetails = () => {
 
   return (
     <div>
-      {country.map((c) => (
+      {country.map( c => (
         <div key={c.numericCode}>
           <img src={c.flag} width="200" alt={c.name} />
           <p>Name: {c.name}</p>

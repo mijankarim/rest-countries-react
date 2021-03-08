@@ -54,3 +54,15 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+.nav{
+  list-style: none;
+  
+  margin-left:0;
+  padding-left:0;
+}
+
+.nav li{
+  display: inline-block;
+  margin:10px 30px;
+}
